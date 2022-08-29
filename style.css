@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    min-width: 480px;
+    /* min-height: 100vh; */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: rgb(197, 130, 236);
+    text-align: center;
+}
+
+.wrap {
+    background: url("./assets/home.png") rgba(0, 0, 0, 0.5);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+    
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* background: no-repeat url("./assets/home.png") rgba(0, 0, 0, 0.5); */
+    /* background: no-repeat url("./assets/home.png"); */
+    /* background-size: contain; */
+}
+
+.ancients {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 40%;
+    padding: 20px;
+
+}
+
+.btn_azathoth {
+
+    /* width: 150px; */
+    background: no-repeat url("assets/Ancients/Azathoth.png");
+    /* background-size: contain; */
+}
+
+.btn_cthulhu {
+    background: no-repeat url("assets/Ancients/Cthulthu.png");
+}
+
+.btn_iogSothoth {
+    background: no-repeat url("assets/Ancients/IogSothoth.png");
+}
+
+.btn_shubNiggurath {
+    background: no-repeat url("assets/Ancients/ShubNiggurath.png");
+}
+
+.ancient {
+    background-size: cover;
+    border-width: 1px;
+    cursor: pointer;
+    height: 300px;
+    width: 230px;
+}
+
+
+.difficulties {
+    display: flex;
+    align-items: center;
+}
+
+.bnt_difficulties {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.diff {
+    width: 8em;
+    height: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgb(137, 90, 209);
+    text-align: center;
+
+}
+
+.wrap-deck {
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+
+    
+}
+
+.shuffle-button {
+    width: 8em;
+    height: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: rgb(137, 90, 209);
+    text-align: center;
+
+
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    /* display: none; */
+}
+
+
+
+.deck-container .deck {
+    cursor: pointer
+}
+.current-state {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 30%;
+}
+
+.stage-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.deck, .last-card {
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+}
+
+.dots-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dot {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: saddlebrown;
+}
+.blue {
+    background-color: darkblue;
+}
+
+.hide {
+    display: none;
+  }
