@@ -397,7 +397,6 @@ const cardsDataBlue = [
     },
   ]
   
-// ##########################
 
 const currAncientCard = document.querySelectorAll('.ancient');
 const counterCards = document.querySelectorAll('.dot');
@@ -674,7 +673,6 @@ function makeStep(){
 };
 
 // const difficultiesButton = document.querySelector('.bnt_difficulties');
-
 const shuffleButton = document.querySelector('.shuffle-button');
 const deckContainer = document.querySelector('.deck-container');
 
